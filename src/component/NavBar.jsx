@@ -30,11 +30,14 @@ const NavBar = () => {
             </Link>
             </li>
             <li>
-            <Link to="contact" className='cursor-pointer'>
+            <Link to="/contact" className='cursor-pointer'>
                 Contact
               </Link>
           </li>
           </ul>
+          <div className='w-[100px] h-[50px] p-4 flex justify-between items-center '>
+            <a href='https://github.com/tlcgbo' target='_blank'></a>
+          </div>
 
         </div>
       </nav>
