@@ -53,7 +53,21 @@ const Contact = () => {
             aria-label='name'/>
             </label>
 
+            <label htmlFor="email" className="flex flex-wrap items-center gap-5">
+              <span className="flex items-center">Your Email</span>
+              <input type="text" name="email" id="name" placeholder="Your email" required
+              className='outline-none p-2 border-b-[0.5px] border-[#808080]' />
+            </label>
             
+        <label htmlFor="" className="flex flex-col">
+          <span className="font-medium mb-4">Your Message:</span>
+          <textarea name="message" cols="30" rows="7" placeholder="Write your message here" 
+          className='placeholder:text-[#808080] bg-tranparent outline-none p-4  border-[0.5px] border-[#808080] rounded-2xl'></textarea>
+        </label>
+
+        <div className="w-full flex  justify-center items-center">
+            <button type='submit' className='main-button w-[80%] md:w-[40%] lg:w-[30%]'>Send</button>
+            </div>
 
           </form>
             </div>
