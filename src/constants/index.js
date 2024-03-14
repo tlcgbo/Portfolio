@@ -1,4 +1,9 @@
 import {
+    bmi,
+    weather,
+} from "../assets"
+ 
+import {
     chatgpt,
     CSS,
     discord,
@@ -13,6 +18,54 @@ import {
     vscode
 
 } from '../assets/tech'
+
+
+const projects = [
+    {
+        name: "Igbagbo's Weather App",
+        description:
+            "Igbagbo's Weather App is an apllication that is designed to get the weather of anywhere in the world.",
+        tags: [
+            {
+                name: "reactJS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "netlify",
+                color: "blue-text-gradient",
+            },
+        ],
+        image: weather,
+        source_code_link: "https://github.com/tlcgbo/WeatherApp",
+        live_preview_link: "https://igbagbosweatherapp.netlify.app/"
+    },
+    {
+        name: "BMI Calculator",
+        description: "BMI Calculator is an application designed to calculate your BMI (Body Mass Index).",
+        tags: [
+            {
+                name: "html",
+                color: "red-text-gradient",
+            },
+            {
+                name: "css",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "javascript",
+                color: "yellow-text-gradient",
+            },
+            {
+                name: "Github",
+                color: "black-text-gradient",
+            },
+        ],
+        image: bmi,
+        source_code_link: "https://github.com/tlcgbo/BMI_Calculator",
+        live_preview_link: "https://tlcgbo.github.io/BMI_Calculator/"
+    }
+]
+
 
 const tech = {
     dev: [
@@ -83,5 +136,6 @@ const tech = {
 }
 
 export {
-    tech
+    tech,
+    projects
 }
