@@ -3,10 +3,11 @@ import './App.css'
 import NavBar from './component/NavBar'
 import Homepage from './pages/Homepage'
 import About from './pages/About'
-
+import Projects from './component/Projects'
 import Stack from './pages/Stack'
 import Contact from './pages/Contact'
 import Bookshelf from './pages/Bookshelf'
+import Hero from './component/Hero'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
             <Route path='/stack' element={<Stack />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='/bookshelf' element={<Bookshelf />} />
+            <Route path='/projects' element={<Projects />} />
           </Routes>
           
       </div>
