@@ -2,6 +2,7 @@ import {
     bmi,
     weather,
     bookshelf,
+    igb,
 } from "../assets"
  
 import {
@@ -22,6 +23,21 @@ import {
 
 
 const projects = [
+    {
+        name: "KidCoders",
+        description: "Kidcoders is like a portofilio website. It was for fun.",
+        tags: [
+            {
+                name: "reactJS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "github",
+                color: "blue-text-gradient",
+            },
+        ],
+        image: igb,
+    },
     {
         name: "Igbabo's Bookshelf",
         description: "Igbagbo's Bookshelf is an apllication that lets you see the books I have read and my reviews and the price of them.",
