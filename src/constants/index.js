@@ -1,6 +1,7 @@
 import {
     bmi,
     weather,
+    bookshelf,
 } from "../assets"
  
 import {
@@ -21,6 +22,27 @@ import {
 
 
 const projects = [
+    {
+        name: "Igbabo's Bookshelf",
+        description: "Igbagbo's Bookshelf is an apllication that lets you see the books I have read and my reviews and the price of them.",
+        tags: [
+            {
+                name: "html",
+                color: "red-text-gradient",
+            },
+            {
+                name: "css",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Github",
+                color: "black-text-gradient",
+            },
+        ],
+        image: bookshelf,
+        source_code_link: "http://localhost:5173/projects",
+        live_preview_link: "https://github.com/tlcgbo/Igbagbo-s-Bookshelf"
+    },
     {
         name: "Igbagbo's Weather App",
         description:
