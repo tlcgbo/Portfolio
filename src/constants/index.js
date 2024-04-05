@@ -37,6 +37,8 @@ const projects = [
             },
         ],
         image: igb,
+        source_code_link: "https://kid-coders.vercel.app/",
+        live_preview_link: "https://github.com/tlcgbo/KidCoders"
     },
     {
         name: "Igbabo's Bookshelf",
@@ -56,7 +58,7 @@ const projects = [
             },
         ],
         image: bookshelf,
-        source_code_link: "http://localhost:5173/projects",
+        source_code_link: "https://igbagbo-s-bookshelf.vercel.app/index.html",
         live_preview_link: "https://github.com/tlcgbo/Igbagbo-s-Bookshelf"
     },
     {
