@@ -39,16 +39,16 @@ const Projects = () => {
                   <button
                     onClick={() => window.open(project.live_preview_link, "_blank")}
                     className="w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
-                    <FaEye style={{ fontSize: '30px' }} />
+                    <a href={projects.source_code_link}><FaEye style={{ fontSize: '30px' }} /></a>
                   </button>
                   <button
                     onClick={() => window.open(project.source_code_link, "_blank")}
                     className="w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
-                    <FaGithub style={{ fontSize: '30px' }} />
+                    <a href={projects.live_preview_link}><FaGithub style={{ fontSize: '30px' }} /></a>
                 </button>
                 </div>
                 <p className="font-bold text-[24px]">{projects.name}</p>
-                <p className="mt-2 text-[15px]">{projects.description}</p>
+                <p cslassName="mt-2 text-[15px]">{projects.description}</p>
                 <div className="font-bold absolute bottom-6 flex flex-wrap gap-2 ">
                 {projects.tags.map((tag) => (
                   <p key={tag.name} className={`text-[14px] ${tag.color}`}>

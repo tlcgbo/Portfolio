@@ -76,8 +76,8 @@ const projects = [
             },
         ],
         image: weather,
-        source_code_link: "https://github.com/tlcgbo/WeatherApp",
-        live_preview_link: "https://igbagbosweatherapp.netlify.app/"
+        live_preview_link: "https://github.com/tlcgbo/WeatherApp",
+        source_code_link: "https://igbagbosweatherapp.netlify.app/"
     },
     {
         name: "BMI Calculator",
@@ -101,8 +101,8 @@ const projects = [
             },
         ],
         image: bmi,
-        source_code_link: "https://github.com/tlcgbo/BMI_Calculator",
-        live_preview_link: "https://tlcgbo.github.io/BMI_Calculator/"
+        live_preview_link: "https://github.com/tlcgbo/BMI_Calculator",
+        source_code_link: "https://tlcgbo.github.io/BMI_Calculator/"
     }
 ]
 
