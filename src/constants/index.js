@@ -3,6 +3,7 @@ import {
     weather,
     bookshelf,
     igb,
+    learn,
 } from "../assets"
  
 import {
@@ -103,7 +104,23 @@ const projects = [
         image: bmi,
         live_preview_link: "https://github.com/tlcgbo/BMI_Calculator",
         source_code_link: "https://tlcgbo.github.io/BMI_Calculator/"
-    }
+    },
+    {
+        name: "Learn To Code",
+        description: "Learn To Code is a subscription based website that sends weekly newspapers on programming and practice questions.",
+        tags: [
+            {
+                name: "reactJS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Github",
+            },
+        ],
+        image: learn,
+        live_preview_link: "https://github.com/tlcgbo/Modern-Website",
+        source_code_link: "https://learn-to-code-rho.vercel.app/",
+    },
 ]
 
 
