@@ -7,9 +7,9 @@ const Hero = () => {
   return (
     <motion.section
         id="hero"
-        className="lg:h-[80vh] pt-4 lg:pt-0 flex lg:justify-center justify-start items-start"
+        className="  lg:h-[80vh] pt-4 lg:pt-0 flex lg:justify-center justify-start items-start"
     >
-        <div className="flex justify-start items-start gap-5 p-5 lg:p-10 overflow-hidden flex-wrap-reverse lg:flex-nowrap">
+        <div className="  flex justify-start items-start gap-5 p-5 lg:p-10 overflow-hidden flex-wrap-reverse lg:flex-nowrap">
             <div className="flex flex-col justify-center items-start gap-5 w-[1008px]">
                 <motion.h1
                     variants={textVariant(0)}

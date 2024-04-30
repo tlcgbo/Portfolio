@@ -192,7 +192,50 @@ const tech = {
     ]
 }
 
+const footlinks = [
+    {
+     name: 'Links',
+     links: [
+       {
+         name: 'About',
+         id: '/about',
+       },
+       {
+         name: 'Projects',
+         id: '/#projects',
+       },
+       {
+         name: 'Tech Stack',
+         id: '/stack',
+       },
+       {
+         name: 'Contact',
+         id: '/contact',
+       },
+     ]
+    },
+    {
+     name: 'Elsewhere',
+     links: [
+       {
+         name: 'Email',
+         id: 'mailto:sefeoluwaakinbeye@gmail.com',
+       },
+       {
+         name: 'LinkedIn',
+         id: 'https://www.linkedin.com/in/sefeakinbeye/',
+       },
+       {
+         name: 'GitHub',
+         id: 'https://github.com/sefeoluwa',
+       },
+     ]
+    }
+   
+   ]
+
 export {
     tech,
-    projects
+    projects,
+    footlinks,
 }
