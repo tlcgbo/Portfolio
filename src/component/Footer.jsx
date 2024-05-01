@@ -20,9 +20,8 @@ const Footer = () => {
           }}>
             <Logo />
             </Link>
-            <p className='text-[#808080] text-[14px]'>Thanks for stopping by <span className='text-[22px]'>ッ</span> </p>
           </div>
-          <p className='text-[#808080] text-[14px]'>© 2024 Sefe Akinbeye. All Rights Reserved.</p>
+          <p className='text-[#808080] text-[14px]'>© 2024 Igbagbo Olufiranye. All Rights Reserved.</p>
       </div>
 
       <div className="flex flex-wrap gap-[70px]  lg:gap-[120px]" >

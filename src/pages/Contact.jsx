@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from "react"
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Footer from "../component/Footer";
 
 const Contact = () => {
 
@@ -73,6 +74,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
+        <Footer />
     </div>
   )
 }

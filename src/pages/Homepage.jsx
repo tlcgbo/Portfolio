@@ -4,6 +4,7 @@ import GetToKnow from "../component/GetToKnow";
 import Hero from "../component/Hero";
 import Projects from "../component/Projects";
 import { Helmet } from "react-helmet";
+import Footer from "../component/Footer";
 
 const Homepage = () => {
   useEffect(() => {
@@ -21,6 +22,7 @@ const Homepage = () => {
         <Projects />
         <GetToKnow />
         <GetInTouch />
+        <Footer />
       </div>
     </>
   )

@@ -2,6 +2,7 @@ import { tech } from "../constants";
 import Aos from "aos";
 import "aos/dist/aos.css"
 import { useEffect } from "react";
+import Footer from "../component/Footer";
 
 const Stack = () => {
   window.scrollTo(0, 0);
@@ -66,6 +67,7 @@ const Stack = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

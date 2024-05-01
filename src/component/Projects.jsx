@@ -4,6 +4,7 @@ import { motion, useAnimation } from "framer-motion";
 import { fadeIn } from "../utils/motion";
 import { projects } from "../constants";
 import { FaGithub, FaEye } from 'react-icons/fa';
+import Footer from "./Footer";
 
 const Projects = () => {
   const { ref, inView } = useInView({
@@ -61,6 +62,7 @@ const Projects = () => {
           ))}
         </div>
       </section>
+      <Footer />
     </div>
   )
 }

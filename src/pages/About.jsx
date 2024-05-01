@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import Logo from "../assets/Logo";
 import { useEffect } from "react";
+import Footer from "../component/Footer";
 
 const About = () => {
   useEffect(() => {
@@ -61,6 +62,7 @@ const About = () => {
           <button className=" flex items-center font-semibold">Get in touch</button>
           </Link>
 
+      <Footer />
       </div>
 
   )
