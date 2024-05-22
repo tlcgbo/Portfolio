@@ -4,6 +4,7 @@ import {
     bookshelf,
     igb,
     learn,
+    agency,
 } from "../assets"
  
 import {
@@ -121,6 +122,23 @@ const projects = [
         live_preview_link: "https://github.com/tlcgbo/Modern-Website",
         source_code_link: "https://learn-to-code-rho.vercel.app/",
     },
+    {
+        name: "Tech Agency",
+        description: "Tech Agency is a company that actively tries to level up your tech life. It can provide tips and tricks to optimzie your work flow via newsletters. We are also inspired by results and driven by data.",
+        tags: [
+            {
+                name: "reactJS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Github",
+            },
+        ],
+        image: agency,
+        live_preview_link: "https://github.com/tlcgbo/Agency",
+        source_code_link: "https://tech-agency12.netlify.app/",
+    },
+    
 ]
 
 
