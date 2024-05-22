@@ -22,7 +22,7 @@ const Homepage = () => {
         <Projects />
         <GetToKnow />
         <GetInTouch />
-        <Footer />
+     
       </div>
     </>
   )

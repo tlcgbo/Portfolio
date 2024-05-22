@@ -237,15 +237,13 @@ const footlinks = [
      links: [
        {
          name: 'Email',
-         id: 'mailto:sefeoluwaakinbeye@gmail.com',
+         
        },
        {
          name: 'LinkedIn',
-         id: 'https://www.linkedin.com/in/sefeakinbeye/',
        },
        {
          name: 'GitHub',
-         id: 'https://github.com/sefeoluwa',
        },
      ]
     }
