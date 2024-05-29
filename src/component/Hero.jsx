@@ -34,9 +34,16 @@ const Hero = () => {
                     animate="show"
                     className="flex gap-[16px] flex-wrap justify-start md:justift-normal"
                 >
-                    <motion.button className="main-button flex items-center justify-center font-semibold text-white">
-                        See my resume
-                    </motion.button>
+                    <motion.a
+              href="https://flowcv.com/resume/wtdehnsde9"
+              target="_blank"
+              rel="noreferrer"
+              variants={zoomIn(0.7, 1)}
+            >
+              <motion.button className="main-button flex items-center justify-center font-semibold text-white">
+                See my resume
+              </motion.button>
+            </motion.a>
                     <motion.div
                         variants={zoomIn(0.9, 1)}
                         className="touch-btn flex items-center h-[60px] md:h-auto px-[40px] bg-[#181818] rounded-[1.87rem] text-[18px]"
