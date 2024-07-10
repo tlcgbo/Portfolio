@@ -5,6 +5,7 @@ import {
     igb,
     learn,
     agency,
+    blog,
 } from "../assets"
  
 import {
@@ -137,6 +138,22 @@ const projects = [
         image: agency,
         live_preview_link: "https://github.com/tlcgbo/Agency",
         source_code_link: "https://tech-agency12.netlify.app/",
+    },
+    {
+        name: "Blog",
+        description: "The Blog App allows you to log in using your google account and create your post and send it to the public using firebase.",
+        tags: [
+            {
+                name: "reactJS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Github",
+            },
+        ],
+        image: blog,
+        live_preview_link: "https://blog-app-nine-woad.vercel.app/",
+        source_code_link: "https://github.com/tlcgbo/Blog-App",
     },
     
 ]
