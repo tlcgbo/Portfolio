@@ -141,7 +141,7 @@ const projects = [
     },
     {
         name: "Blog",
-        description: "The Blog App allows you to log in using your google account and create your post and send it to the public using firebase.",
+        description: "The Blog app allows you to create a blog in which you can write about anything and everything going on in your life. All you have to do is login with your google account, create a post and submit to the world.",
         tags: [
             {
                 name: "reactJS",
@@ -151,9 +151,9 @@ const projects = [
                 name: "Github",
             },
         ],
-        image: blog,
-        live_preview_link: "https://blog-app-nine-woad.vercel.app/",
-        source_code_link: "https://github.com/tlcgbo/Blog-App",
+        image: agency,
+        live_preview_link: "https://github.com/tlcgbo/Blog-App",
+        source_code_link: "https://blog-app-nine-woad.vercel.app/",
     },
     
 ]
