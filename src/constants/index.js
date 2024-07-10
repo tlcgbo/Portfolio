@@ -151,7 +151,7 @@ const projects = [
                 name: "Github",
             },
         ],
-        image: agency,
+        image: blog,
         live_preview_link: "https://github.com/tlcgbo/Blog-App",
         source_code_link: "https://blog-app-nine-woad.vercel.app/",
     },
