@@ -4,6 +4,7 @@ import bookshelf from "./bookshelf.png"
 import igb from "./igb.png"
 import learn from "./learn.png"
 import agency from "./agency.png"
+import blog from "./blog.png"
 
 export {
     bmi,
@@ -12,4 +13,5 @@ export {
     igb,
     learn,
     agency,
+    
 }
