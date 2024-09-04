@@ -5,7 +5,8 @@ import {
     igb,
     learn,
     agency,
-    blog,
+    blogg,
+    birth,
 } from "../assets"
  
 import {
@@ -151,9 +152,25 @@ const projects = [
                 name: "Github",
             },
         ],
-        image: blog,
+        image: blogg,
         live_preview_link: "https://github.com/tlcgbo/Blog-App",
         source_code_link: "https://blog-app-nine-woad.vercel.app/",
+    },
+    {
+        name: "Birth Registration",
+        description: "Birth Registration is a website that allows you to register your baby and all the characterstics of he or she. It is connected to governments and organisation all around the world.",
+        tags: [
+            {
+                name: "reactJS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Github",
+            },
+        ],
+        image: birth,
+        live_preview_link: "https://github.com/tlcgbo/Birth-Registration",
+        source_code_link: "https://birth-registration.vercel.app/",
     },
     
 ]
