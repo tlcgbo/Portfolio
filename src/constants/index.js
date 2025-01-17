@@ -7,6 +7,7 @@ import {
     agency,
     blogg,
     birth,
+    virtuo,
 } from "../assets"
  
 import {
@@ -172,7 +173,22 @@ const projects = [
         live_preview_link: "https://github.com/tlcgbo/Birth-Registration",
         source_code_link: "https://birth-registration.vercel.app/",
     },
-    
+    {
+        name: "Virtuo Learn",
+        description: "Virtuo Learn is our first and succesful online school across the globe.",
+        tags: [
+            {
+                name: "reactJS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Github",
+            },
+        ],
+        image: virtuo,
+        live_preview_link: "https://github.com/tlcgbo/virtruo-learn",
+        source_code_link: "https://virtruo-learn-three.vercel.app/",
+    },
 ]
 
 

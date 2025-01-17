@@ -6,6 +6,7 @@ import learn from "./learn.png"
 import agency from "./agency.png"
 import blogg from "./blogg.png"
 import birth from "./birth.png"
+import virtuo from "./virtuo.png"
 
 export {
     bmi,
@@ -16,4 +17,5 @@ export {
     agency,
     blogg,
     birth,
+    virtuo,
 }
