@@ -8,6 +8,7 @@ import {
     blogg,
     birth,
     virtuo,
+    taskly,
 } from "../assets"
  
 import {
@@ -188,6 +189,22 @@ const projects = [
         image: virtuo,
         live_preview_link: "https://github.com/tlcgbo/virtruo-learn",
         source_code_link: "https://virtruo-learn-three.vercel.app/",
+    },
+    {
+        name: "Taskly",
+        description: "Taskly is a task management platform designed to help individuals and teams stay organized and productive. Users can create, track, and prioritize tasks, ensuring they stay on top of their to-do lists. With a simple and user-friendly interface, Taskly makes managing daily tasks efficient and seamless.",
+        tags: [
+            {
+                name: "reactJS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Github",
+            },
+        ],
+        image: virtuo,
+        live_preview_link: "https://github.com/tlcgbo/task-manager",
+        source_code_link: "https://task-manager-three-puce-86.vercel.app/",
     },
 ]
 

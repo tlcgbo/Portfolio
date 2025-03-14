@@ -7,6 +7,7 @@ import agency from "./agency.png"
 import blogg from "./blogg.png"
 import birth from "./birth.png"
 import virtuo from "./virtuo.png"
+import taskly from "./taskly.png"
 
 export {
     bmi,
@@ -18,4 +19,5 @@ export {
     blogg,
     birth,
     virtuo,
+    taskly,
 }
