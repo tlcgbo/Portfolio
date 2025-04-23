@@ -210,7 +210,7 @@ const projects = [
     },
     {
         name: "E-commerce App",
-        description: "StyleRush is your ultimate destination for bold, effortless fashion. Whether you're after stylish men’s shoes or cozy women’s jackets, we’ve got curated pieces designed to elevate your look. With a sleek interface, instant Google login, and a smooth, responsive experience across devices, shopping has never been this easy. Our smart product search and filter options help you find exactly what you need, while real-time notifications make every “Add to Cart” moment feel exciting. StyleRush isn’t just a store—it’s where modern fashion meets seamless technology.",
+        description: "StyleRush is your ultimate destination for bold, effortless fashion. Whether you're after stylish men’s shoes or cozy women’s jackets, we’ve got curated pieces designed to elevate your look. With a sleek interface, instant Google login, and a smooth, responsive experience across devices, shopping has never been this easy. ",
         tags: [
             {
                 name: "reactJS",
