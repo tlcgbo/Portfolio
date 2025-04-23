@@ -9,6 +9,8 @@ import {
     birth,
     virtuo,
     taskly,
+    shop,
+    
 } from "../assets"
  
 import {
@@ -202,7 +204,7 @@ const projects = [
                 name: "Github",
             },
         ],
-        image: virtuo,
+        image: taskly,
         live_preview_link: "https://github.com/tlcgbo/task-manager",
         source_code_link: "https://task-manager-three-puce-86.vercel.app/",
     },
@@ -218,7 +220,7 @@ const projects = [
                 name: "Github",
             },
         ],
-        image: virtuo,
+        image: shop,
         live_preview_link: "https://github.com/tlcgbo/ecommerce-app",
         source_code_link: "https://ecommerce-app-one-theta.vercel.app/",
     },
