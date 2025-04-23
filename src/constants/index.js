@@ -206,6 +206,22 @@ const projects = [
         live_preview_link: "https://github.com/tlcgbo/task-manager",
         source_code_link: "https://task-manager-three-puce-86.vercel.app/",
     },
+    {
+        name: "E-commerce App",
+        description: "StyleRush is your ultimate destination for bold, effortless fashion. Whether you're after stylish men’s shoes or cozy women’s jackets, we’ve got curated pieces designed to elevate your look. With a sleek interface, instant Google login, and a smooth, responsive experience across devices, shopping has never been this easy. Our smart product search and filter options help you find exactly what you need, while real-time notifications make every “Add to Cart” moment feel exciting. StyleRush isn’t just a store—it’s where modern fashion meets seamless technology.",
+        tags: [
+            {
+                name: "reactJS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Github",
+            },
+        ],
+        image: virtuo,
+        live_preview_link: "https://github.com/tlcgbo/ecommerce-app",
+        source_code_link: "https://ecommerce-app-one-theta.vercel.app/",
+    },
 ]
 
 
