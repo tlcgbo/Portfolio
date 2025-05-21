@@ -10,6 +10,7 @@ import {
     virtuo,
     taskly,
     shop,
+    recipe,
     
 } from "../assets"
  
@@ -223,6 +224,22 @@ const projects = [
         image: shop,
         live_preview_link: "https://github.com/tlcgbo/ecommerce-app",
         source_code_link: "https://ecommerce-app-one-theta.vercel.app/",
+    },
+     {
+        name: "Recipe Finder",
+        description: "Recipe Finder is a modern web application that helps users quickly discover recipes based on their ingredients or cravings. With a sleek user interface and intuitive search functionality, users can explore a wide variety of meals—from quick snacks to full-course dishes.",
+        tags: [
+            {
+                name: "reactJS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Github",
+            },
+        ],
+        image: recipe,
+        live_preview_link: "https://github.com/tlcgbo/recipe-app",
+        source_code_link: "https://recipe-app-psi-navy.vercel.app/",
     },
 ]
 

@@ -9,6 +9,7 @@ import birth from "./birth.png"
 import virtuo from "./virtuo.png"
 import taskly from "./taskly.png"
 import shop from "./shop.png"
+import recipe from "./recipe.png"
 
 export {
     bmi,
@@ -21,5 +22,6 @@ export {
     birth,
     virtuo,
     taskly,
-    shop
+    shop,
+    recipe
 }
